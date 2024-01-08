@@ -29,7 +29,7 @@ a different color when the screen is smaller than 500px*/
 {
   .change-color 
   {
-    background-color: green; /* Change to the desired color */
+    background-color: green;
   }
 }
 
@@ -41,7 +41,6 @@ when the screen's width is smaller than 500px */
   flex-direction: row;
 }
 
-/* Change to column layout for smaller screens */
 @media screen and (max-width: 500px) 
 {
   .change-layout 
